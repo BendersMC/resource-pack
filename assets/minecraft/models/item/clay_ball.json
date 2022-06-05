@@ -19,6 +19,7 @@
 		{ "predicate": { "custom_model_data": 13}, "model": "item/weapons/christmas/wraith" },
 		{ "predicate": { "custom_model_data": 14}, "model": "item/weapons/christmas/gold_gift" },
 		{ "predicate": { "custom_model_data": 15}, "model": "item/weapons/christmas/santa_hat" },
-		{ "predicate": { "custom_model_data": 16}, "model": "item/weapons/christmas/rainbow_gift" }
+		{ "predicate": { "custom_model_data": 16}, "model": "item/weapons/christmas/rainbow_gift" },
+		{ "predicate": { "custom_model_data": 17}, "model": "item/weapons/wand/teleport" }
 	]
 }
