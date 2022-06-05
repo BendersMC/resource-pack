@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stick"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 4}, "model": "item/aangs_staff"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/boomi"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/blitzglock"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/duel_uzi"}
+    ]
+}

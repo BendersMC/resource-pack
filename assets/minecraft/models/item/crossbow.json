@@ -1,0 +1,119 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/crossbow_standby"
+	},
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -90, 0, -60 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90, 0, 30 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -90, 0, -55 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -90, 0, 35 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+	"overrides": [
+		{
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/crossbow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58
+            },
+            "model": "item/crossbow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0
+            },
+            "model": "item/crossbow_pulling_2"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "item/crossbow_arrow"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1
+            },
+            "model": "item/crossbow_firework"
+        },
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/crossbow/crossbow_1"},
+		{"predicate": {"pulling": 1, "custom_model_data":1}, "model": "item/weapons/crossbow/crossbow_1_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":1}, "model": "item/weapons/crossbow/crossbow_1_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":1}, "model": "item/weapons/crossbow/crossbow_1_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":1}, "model": "item/weapons/crossbow/crossbow_1_arrow"},
+		
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/crossbow/woodb"},
+		{"predicate": {"pulling": 1, "custom_model_data":3}, "model": "item/weapons/crossbow/woodb_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":3}, "model": "item/weapons/crossbow/woodb_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":3}, "model": "item/weapons/crossbow/woodb_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":3}, "model": "item/weapons/crossbow/woodb_arrow"},
+		
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/crossbow/hawk"},
+		{"predicate": {"pulling": 1, "custom_model_data":5}, "model": "item/weapons/crossbow/hawk_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":5}, "model": "item/weapons/crossbow/hawk_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":5}, "model": "item/weapons/crossbow/hawk_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":5}, "model": "item/weapons/crossbow/hawk_arrow"},
+		
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/crossbow/nature"},
+		{"predicate": {"pulling": 1, "custom_model_data":7}, "model": "item/weapons/crossbow/nature_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":7}, "model": "item/weapons/crossbow/nature_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":7}, "model": "item/weapons/crossbow/nature_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":7}, "model": "item/weapons/crossbow/nature_arrow"},
+		
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/crossbow/redx"},
+		{"predicate": {"pulling": 1, "custom_model_data":9}, "model": "item/weapons/crossbow/redx_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":9}, "model": "item/weapons/crossbow/redx_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":9}, "model": "item/weapons/crossbow/redx_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":9}, "model": "item/weapons/crossbow/redx_arrow"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/crossbow/redxglow"},
+		{"predicate": {"pulling": 1, "custom_model_data":10}, "model": "item/weapons/crossbow/redx_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":10}, "model": "item/weapons/crossbow/redx_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":10}, "model": "item/weapons/crossbow/redx_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":10}, "model": "item/weapons/crossbow/redx_arrow"},
+		
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/crossbow/epic_green"},
+		{"predicate": {"pulling": 1, "custom_model_data":11}, "model": "item/weapons/crossbow/epic_green_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":11}, "model": "item/weapons/crossbow/epic_green_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":11}, "model": "item/weapons/crossbow/epic_green_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":11}, "model": "item/weapons/crossbow/epic_green_arrow"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/crossbow/epic_greenglow"},
+		{"predicate": {"pulling": 1, "custom_model_data":12}, "model": "item/weapons/crossbow/epic_green_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":12}, "model": "item/weapons/crossbow/epic_green_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":12}, "model": "item/weapons/crossbow/epic_green_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":12}, "model": "item/weapons/crossbow/epic_green_arrow"},
+		
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/crossbow/arcade"},
+		{"predicate": {"pulling": 1, "custom_model_data":13}, "model": "item/weapons/crossbow/arcade_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":13}, "model": "item/weapons/crossbow/arcade_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":13}, "model": "item/weapons/crossbow/arcade_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":13}, "model": "item/weapons/crossbow/arcade_arrow"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/crossbow/arcadeglow"},
+		{"predicate": {"pulling": 1, "custom_model_data":14}, "model": "item/weapons/crossbow/arcade_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58, "custom_model_data":14}, "model": "item/weapons/crossbow/arcade_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":14}, "model": "item/weapons/crossbow/arcade_pulling_2"},
+		{"predicate": {"charged": 1, "custom_model_data":14}, "model": "item/weapons/crossbow/arcade_arrow"}
+	]
+}

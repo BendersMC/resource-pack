@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/diamond_shovel"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/wand/wand_1"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/wand/bone"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/wand/firew"},
+		{"predicate": {"custom_model_data":6}, "model": "item/weapons/wand/firewglow"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/wand/river"},
+		{"predicate": {"custom_model_data":8}, "model": "item/weapons/wand/riverglow"},
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/wand/fairy_staff"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/wand/fairy_staffglow"},
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/wand/lightw"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/wand/lightwglow"},
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/wand/staff_of_oceans"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/wand/staff_of_oceansglow"},
+		{"predicate": {"custom_model_data":15}, "model": "item/weapons/wand/moonstaff"},
+		{"predicate": {"custom_model_data":16}, "model": "item/weapons/wand/moonstaffglow"},
+		{"predicate": {"custom_model_data":17}, "model": "item/weapons/wand/lixw"},
+		{"predicate": {"custom_model_data":18}, "model": "item/weapons/wand/lixwglow"}
+	]
+}

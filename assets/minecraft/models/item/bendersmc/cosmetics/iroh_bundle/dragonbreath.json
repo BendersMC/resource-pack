@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 64],
+	"textures": {
+		"0": "bendersmc/cosmetics/iroh_bundle/irohbreath",
+		"particle": "bendersmc/cosmetics/iroh_bundle/irohbreath"
+	},
+	"elements": [
+		{
+			"from": [16, 0, -16],
+			"to": [32, 0, 25],
+			"faces": {
+				"north": {"uv": [0, 15.75, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 15.75, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 15.75, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 15.75, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 13.5], "texture": "#0"},
+				"down": {"uv": [0, 13.5, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [66.52, 0, 91.35],
+			"translation": [-14, -1.25, -1.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 90],
+			"translation": [-14, 32, 17],
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [8.75, -8.25, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, -7.75, 0]
+		},
+		"gui": {
+			"rotation": [-90, 85.25, -180],
+			"translation": [8.25, -16, 0],
+			"scale": [1, 1, 0.64453]
+		},
+		"head": {
+			"rotation": [0, 0, 90],
+			"translation": [-12, -60, -42],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [93.5, 86.25, -180],
+			"translation": [8, 16.5, -8.25],
+			"scale": [1, 1, 0.64258]
+		}
+	}
+}

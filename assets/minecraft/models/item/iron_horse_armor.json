@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_horse_armor"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/weapons/gauntlet/chigauntlet"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/weapons/fans/kyoshis_fan"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/weapons/fans/kyoshifanukedition"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/weapons/fans/kyoshi_fan_darkred"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/weapons/fans/kyoshis_fan_neongreen"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/weapons/fans/kyoshis_fan_neonpurple"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/weapons/fans/kyoshis_fan_darkbluefan"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/weapons/fans/fanexpensive"},
+		{ "predicate": {"custom_model_data": 9}, "model": "item/weapons/hats/deathscloak"}
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/wooden_hoe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/spear/spear_1"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/spear/red_spear"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/spear/wing_spear"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/spear/seashell_spear"},
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/spear/samurai_spear"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/spear/samurai_spearglow"},
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/spear/pala_spear"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/spear/pala_spearglow"},
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/spear/aqua_spear"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/spear/aqua_spearglow"},
+		{"predicate": {"custom_model_data":15}, "model": "item/weapons/spear/royal_spear"},
+		{"predicate": {"custom_model_data":16}, "model": "item/weapons/spear/royal_spearglow"},
+		{"predicate": {"custom_model_data":17}, "model": "item/weapons/spear/oceans"},
+		{"predicate": {"custom_model_data":18}, "model": "item/weapons/spear/oceansglow"}
+	]
+}

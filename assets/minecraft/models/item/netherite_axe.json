@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/netherite_axe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/battle_axe/battle_axe_1"},
+		{"predicate": {"custom_model_data":2}, "model": "item/weapons/battle_axe/battle_axe_1"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/battle_axe/ice"},
+		{"predicate": {"custom_model_data":4}, "model": "item/weapons/battle_axe/ice"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/battle_axe/blue"},
+		{"predicate": {"custom_model_data":6}, "model": "item/weapons/battle_axe/blueglow"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/battle_axe/scythe"},
+		{"predicate": {"custom_model_data":8}, "model": "item/weapons/battle_axe/scytheglow"},
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/battle_axe/sphere"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/battle_axe/sphereglow"}
+	]
+}

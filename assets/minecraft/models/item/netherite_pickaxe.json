@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/netherite_pickaxe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/sword/sword_1"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/sword/22sword"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/sword/valk"},
+		{"predicate": {"custom_model_data":6}, "model": "item/weapons/sword/valkglow"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/sword/flame"},
+		{"predicate": {"custom_model_data":8}, "model": "item/weapons/sword/flameglow"}
+	]
+}

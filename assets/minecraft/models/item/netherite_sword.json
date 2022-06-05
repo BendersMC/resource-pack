@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/netherite_sword"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/war_hammer/war_hammer_1"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/war_hammer/stam"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/war_hammer/steelh"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/war_hammer/kittyblue"},
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/war_hammer/molag"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/war_hammer/molagglow"},
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/war_hammer/green"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/war_hammer/greenglow"},
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/war_hammer/silver"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/war_hammer/silverglow"},
+		{"predicate": {"custom_model_data":15}, "model": "item/weapons/war_hammer/heaven"},
+		{"predicate": {"custom_model_data":16}, "model": "item/weapons/war_hammer/heavenglow"}
+	]
+}

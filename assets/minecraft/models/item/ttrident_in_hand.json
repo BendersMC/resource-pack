@@ -1,0 +1,38 @@
+{
+	"parent": "builtin/entity",
+	"textures": {
+        "particle": "item/trident"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/spear/wood_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":1}, "model": "item/weapons/spear/wood_spear_throw"},
+		{"predicate": {"custom_model_data":2}, "model": "item/weapons/spear/steel_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":2}, "model": "item/weapons/spear/steel_spear_throw"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/spear/red_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":3}, "model": "item/weapons/spear/red_spear_throw"},
+		{"predicate": {"custom_model_data":4}, "model": "item/weapons/spear/wing_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":4}, "model": "item/weapons/spear/wing_spear_throw"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/spear/seashell_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":5}, "model": "item/weapons/spear/seashell_spear_throw"},
+		{"predicate": {"custom_model_data":6}, "model": "item/weapons/spear/samurai_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":6}, "model": "item/weapons/spear/samurai_spear_throw"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/spear/samurai_spearglow"},
+		{"predicate": {"throwing": 1, "custom_model_data":7}, "model": "item/weapons/spear/samurai_spear_throw"},
+		{"predicate": {"custom_model_data":8}, "model": "item/weapons/spear/pala_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":8}, "model": "item/weapons/spear/pala_spear_throw"},
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/spear/pala_spearglow"},
+		{"predicate": {"throwing": 1, "custom_model_data":9}, "model": "item/weapons/spear/pala_spear_throw"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/spear/aqua_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":10}, "model": "item/weapons/spear/aqua_spear_throw"},
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/spear/aqua_spearglow"},
+		{"predicate": {"throwing": 1, "custom_model_data":11}, "model": "item/weapons/spear/aqua_spear_throw"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/spear/royal_spear"},
+		{"predicate": {"throwing": 1, "custom_model_data":12}, "model": "item/weapons/spear/royal_spear_throw"},
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/spear/royal_spearglow"},
+		{"predicate": {"throwing": 1, "custom_model_data":13}, "model": "item/weapons/spear/royal_spear_throw"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/spear/oceans"},
+		{"predicate": {"throwing": 1, "custom_model_data":14}, "model": "item/weapons/spear/oceans_throw"},
+		{"predicate": {"custom_model_data":15}, "model": "item/weapons/spear/oceansglow"},
+		{"predicate": {"throwing": 1, "custom_model_data":15}, "model": "item/weapons/spear/oceans_throw"}
+	]
+}

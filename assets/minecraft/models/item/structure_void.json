@@ -1,0 +1,73 @@
+
+
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/structure_void"
+	},
+	"overrides": [
+	
+	
+		{"predicate": {"custom_model_data":1}, "model": "item/bendersmc/cosmetics/free/chi_crown"},
+		{"predicate": {"custom_model_data":2}, "model": "item/bendersmc/cosmetics/free/earth_crown"},
+		{"predicate": {"custom_model_data":3}, "model": "item/bendersmc/cosmetics/free/fire_crown"},
+		{"predicate": {"custom_model_data":4}, "model": "item/bendersmc/cosmetics/free/hardhat"},
+		{"predicate": {"custom_model_data":5}, "model": "item/bendersmc/cosmetics/free/mail_bag"},
+		{"predicate": {"custom_model_data":6}, "model": "item/bendersmc/cosmetics/free/visorhatblue"},
+		{"predicate": {"custom_model_data":7}, "model": "item/bendersmc/cosmetics/free/water_crown"},
+		{"predicate": {"custom_model_data":8}, "model": "item/bendersmc/cosmetics/free/beretblack"},		
+
+		
+		{"predicate": {"custom_model_data":9}, "model": "item/bendersmc/cosmetics/freemium/amethyst_crown"},
+		{"predicate": {"custom_model_data":10}, "model": "item/bendersmc/cosmetics/freemium/bowlerblack"},
+		{"predicate": {"custom_model_data":11}, "model": "item/bendersmc/cosmetics/freemium/capblue"},
+		{"predicate": {"custom_model_data":12}, "model": "item/bendersmc/cosmetics/freemium/cartographer_backpack"},
+		{"predicate": {"custom_model_data":13}, "model": "item/bendersmc/cosmetics/freemium/chest_backpack"},
+		{"predicate": {"custom_model_data":14}, "model": "item/bendersmc/cosmetics/freemium/diamond_crown"},
+		{"predicate": {"custom_model_data":15}, "model": "item/bendersmc/cosmetics/freemium/ender_crown"},
+		{"predicate": {"custom_model_data":16}, "model": "item/bendersmc/cosmetics/freemium/gilded_blackstone"},
+		{"predicate": {"custom_model_data":17}, "model": "item/bendersmc/cosmetics/freemium/iron_crown"},
+		{"predicate": {"custom_model_data":18}, "model": "item/bendersmc/cosmetics/freemium/jetpack"},
+		{"predicate": {"custom_model_data":19}, "model": "item/bendersmc/cosmetics/freemium/mountain_climber"},
+		{"predicate": {"custom_model_data":20}, "model": "item/bendersmc/cosmetics/freemium/netherite_crown"},
+		{"predicate": {"custom_model_data":21}, "model": "item/bendersmc/cosmetics/freemium/obsidian_crown"},
+		{"predicate": {"custom_model_data":22}, "model": "item/bendersmc/cosmetics/freemium/prismatic_crown"},
+		{"predicate": {"custom_model_data":23}, "model": "item/bendersmc/cosmetics/freemium/sombrerobeige"},
+		{"predicate": {"custom_model_data":24}, "model": "item/bendersmc/cosmetics/freemium/tint_crown"},
+		{"predicate": {"custom_model_data":25}, "model": "item/bendersmc/cosmetics/freemium/tophatblack"},
+		{"predicate": {"custom_model_data":26}, "model": "item/bendersmc/cosmetics/freemium/tophatmagic"},
+		{"predicate": {"custom_model_data":27}, "model": "item/bendersmc/cosmetics/freemium/westernhatbeige"},
+		{"predicate": {"custom_model_data":28}, "model": "item/bendersmc/cosmetics/freemium/wings"},
+	
+	
+		{"predicate": {"custom_model_data":100}, "model": "item/bendersmc/cosmetics/bluespirit_bundle/spirit_mask"},
+		{"predicate": {"custom_model_data":101}, "model": "item/bendersmc/cosmetics/bluespirit_bundle/sword_backpack"},
+		
+		
+		{"predicate": {"custom_model_data":200}, "model": "item/bendersmc/cosmetics/aang_bundle/arrow"},
+		{"predicate": {"custom_model_data":201}, "model": "item/bendersmc/cosmetics/aang_bundle/staff"},
+		{"predicate": {"custom_model_data":202}, "model": "item/bendersmc/cosmetics/aang_bundle/momo"},
+		
+		
+		
+		{"predicate": {"custom_model_data":300}, "model": "item/bendersmc/cosmetics/toph_bundle/tophhair"},
+		{"predicate": {"custom_model_data":301}, "model": "item/bendersmc/cosmetics/toph_bundle/tsense"},
+		
+		
+		{"predicate": {"custom_model_data":400}, "model": "item/bendersmc/cosmetics/zuko_bundle/flames"},
+		{"predicate": {"custom_model_data":401}, "model": "item/bendersmc/cosmetics/zuko_bundle/fist"},
+		{"predicate": {"custom_model_data":402}, "model": "item/bendersmc/cosmetics/zuko_bundle/zuko_hair"},
+		
+		
+		{"predicate": {"custom_model_data":450}, "model": "item/bendersmc/cosmetics/iroh_bundle/dragonbreath"},
+		{"predicate": {"custom_model_data":451}, "model": "item/bendersmc/cosmetics/iroh_bundle/iroh_hair"}
+		
+		
+		
+
+		
+		
+
+		
+	]
+}

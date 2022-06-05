@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/netherite_hoe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/dagger/dagger_1"},
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/dagger/katana"},
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/dagger/steel_dagger"},
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/dagger/frozen"},
+		{"predicate": {"custom_model_data":8}, "model": "item/weapons/dagger/frozenglow"},
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/dagger/zed"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/dagger/zedglow"},
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/dagger/white"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/dagger/whiteglow"},
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/dagger/lavad"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/dagger/lavadglow"},
+		{"predicate": {"custom_model_data":15}, "model": "item/weapons/dagger/twin"},
+		{"predicate": {"custom_model_data":16}, "model": "item/weapons/dagger/twinglow"}
+	]
+}

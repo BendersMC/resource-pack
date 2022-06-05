@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 5}, "model": "item/sokkasword"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/sokkaswordspecial"},
+		{ "predicate": {"custom_model_data": 8}, "model": "item/weapons/staff/renstaff"},
+		{ "predicate": {"custom_model_data": 7}, "model": "item/weapons/spear/aqua_spear"}
+    ]
+}
