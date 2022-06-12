@@ -13,6 +13,8 @@
 		{"predicate": {"custom_model_data":7}, "model": "item/weapons/battle_axe/scythe"},
 		{"predicate": {"custom_model_data":8}, "model": "item/weapons/battle_axe/scytheglow"},
 		{"predicate": {"custom_model_data":9}, "model": "item/weapons/battle_axe/sphere"},
-		{"predicate": {"custom_model_data":10}, "model": "item/weapons/battle_axe/sphereglow"}
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/battle_axe/sphereglow"},
+
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/hammer/Le0nn's-Ban-Hammer"}
 	]
 }
